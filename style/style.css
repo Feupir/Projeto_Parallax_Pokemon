@@ -1,0 +1,62 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(12, 12, 12);
+    background-color: #f0f0f0;
+    background-image: url('../img/Backgorund.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.parallax{  
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
+}
+.parallax1{
+    background-image: url('../img/p1.webp');
+}
+.parallax2{
+    background-image: url('../img/p2.png');
+}
+.parallax3{
+    background-image: url('../img/p3.jpeg');
+}
+.parallax4{
+    background-image: url('../img/p4.jpg');
+}
+.parallax5{
+    background-image: url('../img/p5.avif');
+}
+.parallax6{
+    background-image: url('../img/p6.avif');
+}
+.parallax7{
+    background-image: url('../img/p7.jpeg');
+}
+.parallax8{
+    background-image: url('../img/p8.jpg');
+}
+.parallax9{
+    background-image: url('../img/p9.avif');
+}
+.parallax10{
+    background-image: url('../img/p10.jpg');
+}
+
+.container {
+    opacity: 100%;
+    position: relative;
+    width: 35%;
+    top:50%;
+    left: 32.8%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    border-radius: 10px;
+
+}
